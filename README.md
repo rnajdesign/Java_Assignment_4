@@ -2,28 +2,64 @@
 
 A simple Java Swing application for managing assignments and tasks.
 
+---
+
 ## Features
+
 - Add, save, and load tasks
 - Differentiate Homework and Project tasks
 - Mark tasks as completed
 - Share tasks via clipboard
+- Desktop shortcut support
+- Clean, simple user interface
+
+---
 
 ## Screenshots
 
 ### Home Screen
+
 ![Home](screenshots/Home.png)
 
 ### Add Task Dialog
+
 ![Add Task](screenshots/AddTask.png)
 
 ### Save Tasks
+
 ![Save](screenshots/Save.png)
 
+---
+
 ## Requirements
+
 - Java 17+
 
-## How to Compile and Run
+---
 
-```bash
-javac -d out $(find src -name "*.java")
-java -cp out gui.AssignmentTrackerGUI
+## Installation Instructions
+
+1. **Install Java 17 or higher**  
+
+   - [Download Java](https://adoptium.net/) and follow the installation steps for your operating system.  
+   - Verify installation:  
+
+     ```bash
+     java -version
+     ```
+
+2. **Clone the repository**  
+
+   ```bash
+   git clone https://github.com/rnajdesign/Java_Assignment_4.git
+   cd Java_Assignment_4
+
+3. **Compile the application**
+
+   ```bash
+   javac -d out $(find src -name "*.java")
+
+4. **Run the application**
+
+   ```bash
+   java -cp out gui.AssignmentTrackerGUI

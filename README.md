@@ -19,15 +19,15 @@ A simple Java Swing application for managing assignments and tasks.
 
 ### Home Screen
 
-![Home](screenshots/Home.png)
+![Home](https://github.com/rnajdesign/Java_Assignment_4/blob/main/src/screenshots/Home.png)
 
 ### Add Task Dialog
 
-![Add Task](screenshots/AddTask.png)
+![Add Task](https://github.com/rnajdesign/Java_Assignment_4/blob/main/src/screenshots/AddTask.png)
 
 ### Save Tasks
 
-![Save](screenshots/Save.png)
+![Save](https://github.com/rnajdesign/Java_Assignment_4/blob/main/src/screenshots/Save.png)
 
 ---
 
